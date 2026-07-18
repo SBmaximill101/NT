@@ -1,0 +1,414 @@
+﻿++Solution 'NT' ‎(1 of 1 project)
+i:{00000000-0000-0000-0000-000000000000}:NT.sln
+++NT
+i:{00000000-0000-0000-0000-000000000000}:NT
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\users\maxim\documents\my games\terraria\tmodloader\modsources\nt\.vs\nt\
+++Dependencies
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:>1234
+++Properties
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\users\maxim\documents\my games\terraria\tmodloader\modsources\nt\properties\
+++.vs
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\users\maxim\documents\my games\terraria\tmodloader\modsources\nt\.vs\
+++Buffs
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\users\maxim\documents\my games\terraria\tmodloader\modsources\nt\buffs\
+++FirstJutsu
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\users\maxim\documents\my games\terraria\tmodloader\modsources\nt\buffs\firstjutsu\
+++ChakraDirectBuff.cs
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\users\maxim\documents\my games\terraria\tmodloader\modsources\nt\buffs\firstjutsu\chakradirectbuff.cs
+++ChakraDirectBuff.png
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\users\maxim\documents\my games\terraria\tmodloader\modsources\nt\buffs\firstjutsu\chakradirectbuff.png
+++CloneBuff.cs
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\users\maxim\documents\my games\terraria\tmodloader\modsources\nt\buffs\firstjutsu\clonebuff.cs
+++BuffTemplate.png
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\users\maxim\documents\my games\terraria\tmodloader\modsources\nt\buffs\bufftemplate.png
+++ClassContent
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\users\maxim\documents\my games\terraria\tmodloader\modsources\nt\classcontent\
+++ChackeraDamageClass.cs
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\users\maxim\documents\my games\terraria\tmodloader\modsources\nt\classcontent\chackeradamageclass.cs
+++ChackeraDamageClass.cs.bak
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\users\maxim\documents\my games\terraria\tmodloader\modsources\nt\classcontent\chackeradamageclass.cs.bak
+++ChackeraDamageClass.cs.bak2
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\users\maxim\documents\my games\terraria\tmodloader\modsources\nt\classcontent\chackeradamageclass.cs.bak2
+++Hand Seal Wheel.cs
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\users\maxim\documents\my games\terraria\tmodloader\modsources\nt\classcontent\hand seal wheel.cs
+++NinjaToolDamageClass.cs
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\users\maxim\documents\my games\terraria\tmodloader\modsources\nt\classcontent\ninjatooldamageclass.cs
+++NinjaToolDamageClass.cs.bak
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\users\maxim\documents\my games\terraria\tmodloader\modsources\nt\classcontent\ninjatooldamageclass.cs.bak
+++NinjaToolDamageClass.cs.bak2
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\users\maxim\documents\my games\terraria\tmodloader\modsources\nt\classcontent\ninjatooldamageclass.cs.bak2
+++Common
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\users\maxim\documents\my games\terraria\tmodloader\modsources\nt\common\
+++DropConditions
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\users\maxim\documents\my games\terraria\tmodloader\modsources\nt\common\dropconditions\
+++ChakraPlayer.cs
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\users\maxim\documents\my games\terraria\tmodloader\modsources\nt\common\chakraplayer.cs
+++Dusts
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\users\maxim\documents\my games\terraria\tmodloader\modsources\nt\dusts\
+++ChakraDirectDust.cs
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\users\maxim\documents\my games\terraria\tmodloader\modsources\nt\dusts\chakradirectdust.cs
+++ChakraDirectDust.png
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\users\maxim\documents\my games\terraria\tmodloader\modsources\nt\dusts\chakradirectdust.png
+++Items
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\users\maxim\documents\my games\terraria\tmodloader\modsources\nt\items\
+++Essences
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\users\maxim\documents\my games\terraria\tmodloader\modsources\nt\items\essences\
+++CrudeEssence.cs
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\users\maxim\documents\my games\terraria\tmodloader\modsources\nt\items\essences\crudeessence.cs
+++CrudeEssence.cs.bak
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\users\maxim\documents\my games\terraria\tmodloader\modsources\nt\items\essences\crudeessence.cs.bak
+++CrudeEssence.cs.bak2
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\users\maxim\documents\my games\terraria\tmodloader\modsources\nt\items\essences\crudeessence.cs.bak2
+++CrudeEssence.png
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\users\maxim\documents\my games\terraria\tmodloader\modsources\nt\items\essences\crudeessence.png
+++Jutsu
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\users\maxim\documents\my games\terraria\tmodloader\modsources\nt\items\jutsu\
+++First
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\users\maxim\documents\my games\terraria\tmodloader\modsources\nt\items\jutsu\first\
+++ChakraDirect.cs
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\users\maxim\documents\my games\terraria\tmodloader\modsources\nt\items\jutsu\first\chakradirect.cs
+++ChakraDirect.cs.bak
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\users\maxim\documents\my games\terraria\tmodloader\modsources\nt\items\jutsu\first\chakradirect.cs.bak
+++ChakraDirect.png
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\users\maxim\documents\my games\terraria\tmodloader\modsources\nt\items\jutsu\first\chakradirect.png
+++Clone.cs
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\users\maxim\documents\my games\terraria\tmodloader\modsources\nt\items\jutsu\first\clone.cs
+++Clone.png
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\users\maxim\documents\my games\terraria\tmodloader\modsources\nt\items\jutsu\first\clone.png
+++InscriptionTable.cs
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\users\maxim\documents\my games\terraria\tmodloader\modsources\nt\items\jutsu\inscriptiontable.cs
+++InscriptionTable.cs.bak
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\users\maxim\documents\my games\terraria\tmodloader\modsources\nt\items\jutsu\inscriptiontable.cs.bak
+++InscriptionTable.png
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\users\maxim\documents\my games\terraria\tmodloader\modsources\nt\items\jutsu\inscriptiontable.png
+++InscriptionTableTile.cs
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\users\maxim\documents\my games\terraria\tmodloader\modsources\nt\items\jutsu\inscriptiontabletile.cs
+++InscriptionTableTile.png
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\users\maxim\documents\my games\terraria\tmodloader\modsources\nt\items\jutsu\inscriptiontabletile.png
+++NinjaArmor
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\users\maxim\documents\my games\terraria\tmodloader\modsources\nt\items\ninjaarmor\
+++Base
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\users\maxim\documents\my games\terraria\tmodloader\modsources\nt\items\ninjaarmor\base\
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\users\maxim\documents\my games\terraria\tmodloader\modsources\nt\items\ninjatools\base\
+++Aspiring
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\users\maxim\documents\my games\terraria\tmodloader\modsources\nt\items\ninjaarmor\base\aspiring\
+++Aspiring.png
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\users\maxim\documents\my games\terraria\tmodloader\modsources\nt\items\ninjaarmor\base\aspiring\aspiring.png
+++AspiringGoggles.cs
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\users\maxim\documents\my games\terraria\tmodloader\modsources\nt\items\ninjaarmor\base\aspiring\aspiringgoggles.cs
+++AspiringGoggles.cs.bak
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\users\maxim\documents\my games\terraria\tmodloader\modsources\nt\items\ninjaarmor\base\aspiring\aspiringgoggles.cs.bak
+++AspiringGoggles.cs.bak2
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\users\maxim\documents\my games\terraria\tmodloader\modsources\nt\items\ninjaarmor\base\aspiring\aspiringgoggles.cs.bak2
+++AspiringGoggles.png
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\users\maxim\documents\my games\terraria\tmodloader\modsources\nt\items\ninjaarmor\base\aspiring\aspiringgoggles.png
+++AspiringGoggles_Head.png
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\users\maxim\documents\my games\terraria\tmodloader\modsources\nt\items\ninjaarmor\base\aspiring\aspiringgoggles_head.png
+++AspiringSandels.cs
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\users\maxim\documents\my games\terraria\tmodloader\modsources\nt\items\ninjaarmor\base\aspiring\aspiringsandels.cs
+++AspiringSandels.cs.bak
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\users\maxim\documents\my games\terraria\tmodloader\modsources\nt\items\ninjaarmor\base\aspiring\aspiringsandels.cs.bak
+++AspiringSandels.png
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\users\maxim\documents\my games\terraria\tmodloader\modsources\nt\items\ninjaarmor\base\aspiring\aspiringsandels.png
+++AspiringSandels_Legs.png
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\users\maxim\documents\my games\terraria\tmodloader\modsources\nt\items\ninjaarmor\base\aspiring\aspiringsandels_legs.png
+++AspiringShirt.cs
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\users\maxim\documents\my games\terraria\tmodloader\modsources\nt\items\ninjaarmor\base\aspiring\aspiringshirt.cs
+++AspiringShirt.cs.bak
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\users\maxim\documents\my games\terraria\tmodloader\modsources\nt\items\ninjaarmor\base\aspiring\aspiringshirt.cs.bak
+++AspiringShirt.png
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\users\maxim\documents\my games\terraria\tmodloader\modsources\nt\items\ninjaarmor\base\aspiring\aspiringshirt.png
+++AspiringShirt_Body.png
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\users\maxim\documents\my games\terraria\tmodloader\modsources\nt\items\ninjaarmor\base\aspiring\aspiringshirt_body.png
+++Vanity
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\users\maxim\documents\my games\terraria\tmodloader\modsources\nt\items\ninjaarmor\vanity\
+++EmptyHeadBand.cs
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\users\maxim\documents\my games\terraria\tmodloader\modsources\nt\items\ninjaarmor\vanity\emptyheadband.cs
+++EmptyHeadBand.cs.bak
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\users\maxim\documents\my games\terraria\tmodloader\modsources\nt\items\ninjaarmor\vanity\emptyheadband.cs.bak
+++EmptyHeadBand.cs.bak2
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\users\maxim\documents\my games\terraria\tmodloader\modsources\nt\items\ninjaarmor\vanity\emptyheadband.cs.bak2
+++EmptyHeadBand.cs.bak3
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\users\maxim\documents\my games\terraria\tmodloader\modsources\nt\items\ninjaarmor\vanity\emptyheadband.cs.bak3
+++EmptyHeadBand.cs.bak4
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\users\maxim\documents\my games\terraria\tmodloader\modsources\nt\items\ninjaarmor\vanity\emptyheadband.cs.bak4
+++EmptyHeadBand.cs.bak5
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\users\maxim\documents\my games\terraria\tmodloader\modsources\nt\items\ninjaarmor\vanity\emptyheadband.cs.bak5
+++EmptyHeadBand.png
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\users\maxim\documents\my games\terraria\tmodloader\modsources\nt\items\ninjaarmor\vanity\emptyheadband.png
+++EmptyHeadBand_Face.png
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\users\maxim\documents\my games\terraria\tmodloader\modsources\nt\items\ninjaarmor\vanity\emptyheadband_face.png
+++EmptyWaistBand.cs
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\users\maxim\documents\my games\terraria\tmodloader\modsources\nt\items\ninjaarmor\vanity\emptywaistband.cs
+++EmptyWaistBand.cs.bak
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\users\maxim\documents\my games\terraria\tmodloader\modsources\nt\items\ninjaarmor\vanity\emptywaistband.cs.bak
+++EmptyWaistBand.cs.bak2
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\users\maxim\documents\my games\terraria\tmodloader\modsources\nt\items\ninjaarmor\vanity\emptywaistband.cs.bak2
+++EmptyWaistBand.cs.bak3
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\users\maxim\documents\my games\terraria\tmodloader\modsources\nt\items\ninjaarmor\vanity\emptywaistband.cs.bak3
+++EmptyWaistBand.cs.bak4
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\users\maxim\documents\my games\terraria\tmodloader\modsources\nt\items\ninjaarmor\vanity\emptywaistband.cs.bak4
+++EmptyWaistBand.png
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\users\maxim\documents\my games\terraria\tmodloader\modsources\nt\items\ninjaarmor\vanity\emptywaistband.png
+++EmptyWaistBand_Waist.png
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\users\maxim\documents\my games\terraria\tmodloader\modsources\nt\items\ninjaarmor\vanity\emptywaistband_waist.png
+++HandSealScroll.png
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\users\maxim\documents\my games\terraria\tmodloader\modsources\nt\items\ninjaarmor\vanity\handsealscroll.png
+++NinjaTools
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\users\maxim\documents\my games\terraria\tmodloader\modsources\nt\items\ninjatools\
+++Kunai.cs
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\users\maxim\documents\my games\terraria\tmodloader\modsources\nt\items\ninjatools\base\kunai.cs
+++Kunai.cs.bak
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\users\maxim\documents\my games\terraria\tmodloader\modsources\nt\items\ninjatools\base\kunai.cs.bak
+++Kunai.cs.bak2
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\users\maxim\documents\my games\terraria\tmodloader\modsources\nt\items\ninjatools\base\kunai.cs.bak2
+++Kunai.cs.bak3
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\users\maxim\documents\my games\terraria\tmodloader\modsources\nt\items\ninjatools\base\kunai.cs.bak3
+++Kunai.cs.bak4
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\users\maxim\documents\my games\terraria\tmodloader\modsources\nt\items\ninjatools\base\kunai.cs.bak4
+++Kunai.cs.bak5
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\users\maxim\documents\my games\terraria\tmodloader\modsources\nt\items\ninjatools\base\kunai.cs.bak5
+++Kunai.png
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\users\maxim\documents\my games\terraria\tmodloader\modsources\nt\items\ninjatools\base\kunai.png
+++Shuriken.cs
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\users\maxim\documents\my games\terraria\tmodloader\modsources\nt\items\ninjatools\base\shuriken.cs
+++Shuriken.cs.bak
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\users\maxim\documents\my games\terraria\tmodloader\modsources\nt\items\ninjatools\base\shuriken.cs.bak
+++Shuriken.cs.bak2
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\users\maxim\documents\my games\terraria\tmodloader\modsources\nt\items\ninjatools\base\shuriken.cs.bak2
+++Shuriken.cs.bak3
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\users\maxim\documents\my games\terraria\tmodloader\modsources\nt\items\ninjatools\base\shuriken.cs.bak3
+++Shuriken.cs.bak4
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\users\maxim\documents\my games\terraria\tmodloader\modsources\nt\items\ninjatools\base\shuriken.cs.bak4
+++Shuriken.cs.bak5
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\users\maxim\documents\my games\terraria\tmodloader\modsources\nt\items\ninjatools\base\shuriken.cs.bak5
+++Shuriken.png
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\users\maxim\documents\my games\terraria\tmodloader\modsources\nt\items\ninjatools\base\shuriken.png
+++JS1.png
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\users\maxim\documents\my games\terraria\tmodloader\modsources\nt\items\js1.png
+++JutsuScroll.png
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\users\maxim\documents\my games\terraria\tmodloader\modsources\nt\items\jutsuscroll.png
+++Ramen.cs
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\users\maxim\documents\my games\terraria\tmodloader\modsources\nt\items\ramen.cs
+++Ramen.cs.bak
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\users\maxim\documents\my games\terraria\tmodloader\modsources\nt\items\ramen.cs.bak
+++Ramen.cs.bak2
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\users\maxim\documents\my games\terraria\tmodloader\modsources\nt\items\ramen.cs.bak2
+++Ramen.cs.bak3
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\users\maxim\documents\my games\terraria\tmodloader\modsources\nt\items\ramen.cs.bak3
+++Ramen.cs.bak4
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\users\maxim\documents\my games\terraria\tmodloader\modsources\nt\items\ramen.cs.bak4
+++Ramen.png
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\users\maxim\documents\my games\terraria\tmodloader\modsources\nt\items\ramen.png
+++waiting.png
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\users\maxim\documents\my games\terraria\tmodloader\modsources\nt\items\waiting.png
+++Localization
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\users\maxim\documents\my games\terraria\tmodloader\modsources\nt\localization\
+++en-US_Mods.NT.hjson
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\users\maxim\documents\my games\terraria\tmodloader\modsources\nt\localization\en-us_mods.nt.hjson
+++Projectiles
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\users\maxim\documents\my games\terraria\tmodloader\modsources\nt\projectiles\
+++UI
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\users\maxim\documents\my games\terraria\tmodloader\modsources\nt\ui\
+++build.txt
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\users\maxim\documents\my games\terraria\tmodloader\modsources\nt\build.txt
+++description.txt
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\users\maxim\documents\my games\terraria\tmodloader\modsources\nt\description.txt
+++en-US.hjson.new
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\users\maxim\documents\my games\terraria\tmodloader\modsources\nt\en-us.hjson.new
+++icon.png
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\users\maxim\documents\my games\terraria\tmodloader\modsources\nt\icon.png
+++icon_workshop.png
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\users\maxim\documents\my games\terraria\tmodloader\modsources\nt\icon_workshop.png
+++NT.cs
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\users\maxim\documents\my games\terraria\tmodloader\modsources\nt\nt.cs
+++NT.cs.bak
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\users\maxim\documents\my games\terraria\tmodloader\modsources\nt\nt.cs.bak
+++UpgradeLog.htm
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\users\maxim\documents\my games\terraria\tmodloader\modsources\nt\upgradelog.htm
+++Analyzers
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:analyzers
+++Assemblies
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:assemblies
+++Frameworks
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:frameworks
+++Packages
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:packages
+++launchSettings.json
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\users\maxim\documents\my games\terraria\tmodloader\modsources\nt\properties\launchsettings.json
+++KunaiProjectile.cs
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\users\maxim\documents\my games\terraria\tmodloader\modsources\nt\projectiles\kunaiprojectile.cs
+++KunaiProjectile.cs.bak
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\users\maxim\documents\my games\terraria\tmodloader\modsources\nt\projectiles\kunaiprojectile.cs.bak
+++KunaiProjectile.cs.bak2
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\users\maxim\documents\my games\terraria\tmodloader\modsources\nt\projectiles\kunaiprojectile.cs.bak2
+++KunaiProjectile.cs.bak3
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\users\maxim\documents\my games\terraria\tmodloader\modsources\nt\projectiles\kunaiprojectile.cs.bak3
+++KunaiProjectile.cs.bak4
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\users\maxim\documents\my games\terraria\tmodloader\modsources\nt\projectiles\kunaiprojectile.cs.bak4
+++KunaiProjectile.png
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\users\maxim\documents\my games\terraria\tmodloader\modsources\nt\projectiles\kunaiprojectile.png
+++ShurikenProjectile.cs
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\users\maxim\documents\my games\terraria\tmodloader\modsources\nt\projectiles\shurikenprojectile.cs
+++ShurikenProjectile.cs.bak
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\users\maxim\documents\my games\terraria\tmodloader\modsources\nt\projectiles\shurikenprojectile.cs.bak
+++ShurikenProjectile.cs.bak2
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\users\maxim\documents\my games\terraria\tmodloader\modsources\nt\projectiles\shurikenprojectile.cs.bak2
+++ShurikenProjectile.cs.bak3
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\users\maxim\documents\my games\terraria\tmodloader\modsources\nt\projectiles\shurikenprojectile.cs.bak3
+++ShurikenProjectile.cs.bak4
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\users\maxim\documents\my games\terraria\tmodloader\modsources\nt\projectiles\shurikenprojectile.cs.bak4
+++ShurikenProjectile.png
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\users\maxim\documents\my games\terraria\tmodloader\modsources\nt\projectiles\shurikenprojectile.png
+++UITools
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\users\maxim\documents\my games\terraria\tmodloader\modsources\nt\ui\uitools\
+++ChakraBar.cs
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\users\maxim\documents\my games\terraria\tmodloader\modsources\nt\ui\chakrabar.cs
+++ChakraBar.cs.bak
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\users\maxim\documents\my games\terraria\tmodloader\modsources\nt\ui\chakrabar.cs.bak
+++ChakraBarUI.png
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\users\maxim\documents\my games\terraria\tmodloader\modsources\nt\ui\chakrabarui.png
+++ChakraBarUI2.png
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\users\maxim\documents\my games\terraria\tmodloader\modsources\nt\ui\chakrabarui2.png
+++ChakraWheel.png
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\users\maxim\documents\my games\terraria\tmodloader\modsources\nt\ui\chakrawheel.png
+++ExampleResourceFrame.png
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\users\maxim\documents\my games\terraria\tmodloader\modsources\nt\ui\exampleresourceframe.png
+++JutsuWheel.cs
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\users\maxim\documents\my games\terraria\tmodloader\modsources\nt\ui\jutsuwheel.cs
+++Microsoft.CodeAnalysis.CSharp.NetAnalyzers
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+++Microsoft.CodeAnalysis.NetAnalyzers
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+++System.Text.Json.SourceGeneration
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.1\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+++tModLoader.CodeAssist
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\users\maxim\.nuget\packages\tmodloader.codeassist\0.1.5\analyzers\dotnet\cs\tmodloader.codeassist.dll
+++Basic.Reference.Assemblies.Net60
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\program files (x86)\steam\steamapps\common\tmodloader\libraries\basic.reference.assemblies.net60\1.2.4\lib\netstandard2.0\basic.reference.assemblies.net60.dll
+++CsvHelper
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\program files (x86)\steam\steamapps\common\tmodloader\libraries\csvhelper\2.0.0.0\csvhelper.dll
+++FNA
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\program files (x86)\steam\steamapps\common\tmodloader\libraries\fna\1.0.0\fna.dll
+++Hjson
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\program files (x86)\steam\steamapps\common\tmodloader\libraries\hjson\3.0.0\lib\netstandard1.3\hjson.dll
+++Humanizer
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\program files (x86)\steam\steamapps\common\tmodloader\libraries\humanizer.core\2.2.0\lib\netstandard1.0\humanizer.dll
+++Ionic.Zip.Reduced
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\program files (x86)\steam\steamapps\common\tmodloader\libraries\ionic.zip.reduced\1.9.1.8\ionic.zip.reduced.dll
+++log4net
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\program files (x86)\steam\steamapps\common\tmodloader\libraries\log4net\2.0.8.0\log4net.dll
+++Microsoft.Bcl.AsyncInterfaces
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\program files (x86)\steam\steamapps\common\tmodloader\libraries\microsoft.bcl.asyncinterfaces\6.0.0\lib\netstandard2.1\microsoft.bcl.asyncinterfaces.dll
+++Microsoft.Build.Locator
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\program files (x86)\steam\steamapps\common\tmodloader\libraries\microsoft.build.locator\1.4.1\lib\netcoreapp2.0\microsoft.build.locator.dll
+++Microsoft.CodeAnalysis
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\program files (x86)\steam\steamapps\common\tmodloader\libraries\microsoft.codeanalysis.common\4.2.0\lib\netcoreapp3.1\microsoft.codeanalysis.dll
+++Microsoft.CodeAnalysis.CSharp
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\program files (x86)\steam\steamapps\common\tmodloader\libraries\microsoft.codeanalysis.csharp\4.2.0\lib\netcoreapp3.1\microsoft.codeanalysis.csharp.dll
+++Microsoft.CodeAnalysis.CSharp.Workspaces
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\program files (x86)\steam\steamapps\common\tmodloader\libraries\microsoft.codeanalysis.csharp.workspaces\4.2.0\lib\netcoreapp3.1\microsoft.codeanalysis.csharp.workspaces.dll
+++Microsoft.CodeAnalysis.FlowAnalysis.Utilities
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\program files (x86)\steam\steamapps\common\tmodloader\libraries\microsoft.codeanalysis.flowanalysis.utilities\2.9.6\lib\netstandard1.3\microsoft.codeanalysis.flowanalysis.utilities.dll
+++Microsoft.CodeAnalysis.Workspaces
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\program files (x86)\steam\steamapps\common\tmodloader\libraries\microsoft.codeanalysis.workspaces.common\4.2.0\lib\netcoreapp3.1\microsoft.codeanalysis.workspaces.dll
+++Microsoft.CodeAnalysis.Workspaces.MSBuild
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\program files (x86)\steam\steamapps\common\tmodloader\libraries\microsoft.codeanalysis.workspaces.msbuild\4.2.0\lib\netcoreapp3.1\microsoft.codeanalysis.workspaces.msbuild.dll
+++Microsoft.Win32.SystemEvents
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\program files (x86)\steam\steamapps\common\tmodloader\libraries\microsoft.win32.systemevents\6.0.0\lib\net6.0\microsoft.win32.systemevents.dll
+++Mono.Cecil
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\program files (x86)\steam\steamapps\common\tmodloader\libraries\mono.cecil\0.11.4\lib\netstandard2.0\mono.cecil.dll
+++Mono.Cecil.Mdb
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\program files (x86)\steam\steamapps\common\tmodloader\libraries\mono.cecil\0.11.4\lib\netstandard2.0\mono.cecil.mdb.dll
+++Mono.Cecil.Pdb
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\program files (x86)\steam\steamapps\common\tmodloader\libraries\mono.cecil\0.11.4\lib\netstandard2.0\mono.cecil.pdb.dll
+++Mono.Cecil.Rocks
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\program files (x86)\steam\steamapps\common\tmodloader\libraries\mono.cecil\0.11.4\lib\netstandard2.0\mono.cecil.rocks.dll
+++MonoMod.Backports
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\program files (x86)\steam\steamapps\common\tmodloader\libraries\monomodreorg.backports\23.3.22.1\lib\net6.0\monomod.backports.dll
+++MonoMod.Core
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\program files (x86)\steam\steamapps\common\tmodloader\libraries\monomodreorg.core\23.3.22.1\lib\net6.0\monomod.core.dll
+++MonoMod.Iced
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\program files (x86)\steam\steamapps\common\tmodloader\libraries\monomodreorg.core\23.3.22.1\lib\net6.0\monomod.iced.dll
+++MonoMod.ILHelpers
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\program files (x86)\steam\steamapps\common\tmodloader\libraries\monomodreorg.ilhelpers\23.3.22.1\lib\net6.0\monomod.ilhelpers.dll
+++MonoMod.RuntimeDetour
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\program files (x86)\steam\steamapps\common\tmodloader\libraries\monomodreorg.runtimedetour\23.3.22.1\lib\net6.0\monomod.runtimedetour.dll
+++MonoMod.Utils
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\program files (x86)\steam\steamapps\common\tmodloader\libraries\monomodreorg.utils\23.3.22.1\lib\net6.0\monomod.utils.dll
+++MP3Sharp
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\program files (x86)\steam\steamapps\common\tmodloader\libraries\mp3sharp\1.0.0.0\mp3sharp.dll
+++Newtonsoft.Json
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\program files (x86)\steam\steamapps\common\tmodloader\libraries\newtonsoft.json\12.0.0.0\newtonsoft.json.dll
+++NVorbis
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\program files (x86)\steam\steamapps\common\tmodloader\libraries\nvorbis\0.10.0.3\nvorbis.dll
+++RailSDK.Net
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\program files (x86)\steam\steamapps\common\tmodloader\libraries\railsdk.net\1.0.0.0\railsdk.net.dll
+++ReLogic
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\program files (x86)\steam\steamapps\common\tmodloader\libraries\relogic\1.0.0\relogic.dll
+++Steamworks.NET
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\program files (x86)\steam\steamapps\common\tmodloader\libraries\steamworks.net\20.1.0\lib\netstandard2.1\steamworks.net.dll
+++SteelSeriesEngineWrapper
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\program files (x86)\steam\steamapps\common\tmodloader\libraries\steelseriesenginewrapper\1.0.0.0\steelseriesenginewrapper.dll
+++System.CodeDom
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\program files (x86)\steam\steamapps\common\tmodloader\libraries\system.codedom\6.0.0\lib\net6.0\system.codedom.dll
+++System.Composition.AttributedModel
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\program files (x86)\steam\steamapps\common\tmodloader\libraries\system.composition.attributedmodel\6.0.0\lib\net6.0\system.composition.attributedmodel.dll
+++System.Composition.Convention
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\program files (x86)\steam\steamapps\common\tmodloader\libraries\system.composition.convention\6.0.0\lib\net6.0\system.composition.convention.dll
+++System.Composition.Hosting
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\program files (x86)\steam\steamapps\common\tmodloader\libraries\system.composition.hosting\6.0.0\lib\net6.0\system.composition.hosting.dll
+++System.Composition.Runtime
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\program files (x86)\steam\steamapps\common\tmodloader\libraries\system.composition.runtime\6.0.0\lib\net6.0\system.composition.runtime.dll
+++System.Composition.TypedParts
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\program files (x86)\steam\steamapps\common\tmodloader\libraries\system.composition.typedparts\6.0.0\lib\net6.0\system.composition.typedparts.dll
+++System.Configuration.ConfigurationManager
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\program files (x86)\steam\steamapps\common\tmodloader\libraries\system.configuration.configurationmanager\6.0.0\lib\net6.0\system.configuration.configurationmanager.dll
+++System.Diagnostics.PerformanceCounter
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\program files (x86)\steam\steamapps\common\tmodloader\libraries\system.diagnostics.performancecounter\6.0.0\lib\net6.0\system.diagnostics.performancecounter.dll
+++System.Drawing.Common
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\program files (x86)\steam\steamapps\common\tmodloader\libraries\system.drawing.common\6.0.0\lib\net6.0\system.drawing.common.dll
+++System.IO.Pipelines
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\program files (x86)\steam\steamapps\common\tmodloader\libraries\system.io.pipelines\6.0.1\lib\net6.0\system.io.pipelines.dll
+++System.Reflection.MetadataLoadContext
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\program files (x86)\steam\steamapps\common\tmodloader\libraries\system.reflection.metadataloadcontext\6.0.0\lib\net6.0\system.reflection.metadataloadcontext.dll
+++System.Security.Cryptography.ProtectedData
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\program files (x86)\steam\steamapps\common\tmodloader\libraries\system.security.cryptography.protecteddata\6.0.0\lib\net6.0\system.security.cryptography.protecteddata.dll
+++System.Security.Permissions
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\program files (x86)\steam\steamapps\common\tmodloader\libraries\system.security.permissions\6.0.0\lib\net6.0\system.security.permissions.dll
+++System.Windows.Extensions
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\program files (x86)\steam\steamapps\common\tmodloader\libraries\system.windows.extensions\6.0.0\lib\net6.0\system.windows.extensions.dll
+++TerrariaHooks
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\program files (x86)\steam\steamapps\common\tmodloader\libraries\terrariahooks\0.0.0.0\terrariahooks.dll
+++tModLoader
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\program files (x86)\steam\steamapps\common\tmodloader\tmodloader.dll
+++tModPorter
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\program files (x86)\steam\steamapps\common\tmodloader\libraries\tmodporter\1.0.0\tmodporter.dll
+++UtfUnknown
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\program files (x86)\steam\steamapps\common\tmodloader\libraries\utf.unknown\2.5.0\lib\netcoreapp3.0\utfunknown.dll
+++Microsoft.NETCore.App
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\users\maxim\documents\my games\terraria\tmodloader\modsources\nt\microsoft.netcore.app
+++tModLoader.CodeAssist (0.1.5)
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:>1354
+++v17
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\users\maxim\documents\my games\terraria\tmodloader\modsources\nt\.vs\nt\v17\
+++AccessorySlotsUI.cs
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\users\maxim\documents\my games\terraria\tmodloader\modsources\nt\ui\uitools\accessoryslotsui.cs
+++CroppedTexture2D.cs
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\users\maxim\documents\my games\terraria\tmodloader\modsources\nt\ui\uitools\croppedtexture2d.cs
+++CustomEventArgs.cs
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\users\maxim\documents\my games\terraria\tmodloader\modsources\nt\ui\uitools\customeventargs.cs
+++CustomItemSlot.cs
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\users\maxim\documents\my games\terraria\tmodloader\modsources\nt\ui\uitools\customitemslot.cs
+++DraggableAccessorySlots.cs
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\users\maxim\documents\my games\terraria\tmodloader\modsources\nt\ui\uitools\draggableaccessoryslots.cs
+++DraggableUIPanel.cs
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\users\maxim\documents\my games\terraria\tmodloader\modsources\nt\ui\uitools\draggableuipanel.cs
+++DraggableUIPanel.cs.bak
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\users\maxim\documents\my games\terraria\tmodloader\modsources\nt\ui\uitools\draggableuipanel.cs.bak
+++HierarchyCache.v1.txt
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\users\maxim\documents\my games\terraria\tmodloader\modsources\nt\.vs\nt\v17\hierarchycache.v1.txt
+++MyBufftemplate.png
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\users\maxim\documents\my games\terraria\tmodloader\modsources\nt\buffs\mybufftemplate.png
+++CloneBuff.png
+i:{3230ebac-a540-4fb8-a34e-e04ea7b98c1a}:c:\users\maxim\documents\my games\terraria\tmodloader\modsources\nt\buffs\firstjutsu\clonebuff.png

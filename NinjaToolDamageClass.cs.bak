@@ -1,0 +1,49 @@
+﻿using Terraria;
+using Terraria.ModLoader;
+
+namespace NT.ClassContent
+{
+    internal class NinjaToolDamageClass : DamageClass
+    {
+		public override StatInheritanceData GetModifierInheritance(DamageClass damageClass)
+		{
+			
+			if (damageClass == DamageClass.Generic)
+				return StatInheritanceData.Full;
+
+			return new StatInheritanceData(
+				damageInheritance: 0f,
+				critChanceInheritance: 0f,
+				attackSpeedInheritance: 0f,
+				armorPenInheritance: 0f,
+				knockbackInheritance: 0f
+			);
+			
+		}
+		
+		public override bool GetEffectInheritance(DamageClass damageClass)
+		{
+			// This method allows you to make your damage class benefit from and be able to activate other classes' effects (e.g. Spectre bolts, Magma Stone) based on what returns true.
+			if (damageClass == ModContent.GetInstance<ChackraDamageClass.ChackraDamageClass>())
+				return true;
+
+			return false;
+		}
+		
+		public override void SetDefaultStats(Player player)
+		{
+			
+		}
+
+		public override void SetStaticDefaults()
+		{
+			ClassName.SetDefault("NinjaTool");
+		}
+
+		// This property lets you decide whether or not your damage class can use standard critical strike calculations.
+		// Note that setting it to false will also prevent the critical strike chance tooltip line from being shown.
+		// This prevention will overrule anything set by ShowStatTooltipLine, so be careful!
+		public override bool UseStandardCritCalcs => true;
+
+	}
+}
