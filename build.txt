@@ -1,0 +1,4 @@
+displayName = Naruto Terraria
+author = SB
+homepage = https://discord.gg/FmyfVCK2Bm
+version = 1.3.1
