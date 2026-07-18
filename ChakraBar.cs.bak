@@ -1,0 +1,58 @@
+using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Graphics;
+using Terraria.UI;
+using Terraria.GameContent.UI.Elements;
+using Terraria;
+using Terraria.ModLoader;
+
+namespace NT.UI
+{
+    class ChakraBar : UIElement
+    {
+        private UIImage ChakraBarUI;
+        Color color = new Color(50, 255, 153);
+        internal MenuBar MenuBar;
+        private UserInterface _menuBar;
+
+        public override void OnInitialize()
+        {
+            ChakraBarUI = new UIImage(ModContent.GetTexture("NT/UI/ChakraBarUI"));
+        }
+
+        protected override void DrawSelf(SpriteBatch spriteBatch)
+        {
+            base.DrawSelf(spriteBatch);
+            spriteBatch.Draw(Main.magicPixel, new Vector2(Main.screenWidth + 20, Main.screenHeight - 20) / 2f, color);
+        }
+
+        public override void Load()
+        {
+            MenuBar = new MenuBar();
+            MenuBar.Activate();
+            _menuBar = new UserInterface();
+            _menuBar.SetState(MenuBar);
+        }
+
+        public override void UpdateUI(GameTime gameTime)
+        {
+            _menuBar?.Update(gameTime);
+        }
+
+        public override void ModifyInterfaceLayers(List<GameInterfaceLayer> layers)
+        {
+            int mouseTextIndex = layers.FindIndex(layer => layer.Name.Equals("NT: Mouse Text"));
+            if (mouseTextIndex != -1)
+            {
+                layers.Insert(mouseTextIndex, new LegacyGameInterfaceLayer(
+                    "NT: A Description",
+                    delegate
+                    {
+                        _menuBar.Draw(Main.spriteBatch, new GameTime());
+                        return true;
+                    },
+                    InterfaceScaleType.UI)
+                );
+            }
+        }
+    }
+}

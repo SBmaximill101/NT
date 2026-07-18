@@ -1,0 +1,44 @@
+using NT.ClassContent;
+using Terraria;
+using Terraria.Audio;
+using Terraria.ID;
+using Terraria.ModLoader;
+
+namespace NT.Projectiles
+{
+    public class KunaiProjectile : ModProjectile
+    {
+        public override void SetStaticDefaults()
+        {
+            // DisplayName.SetDefault("Shuriken");
+        }
+
+        public override void SetDefaults()
+        {
+            Projectile.CloneDefaults(ProjectileID.ThrowingKnife);
+            Projectile.aiStyle = 2;
+            AIType = ProjectileID.ThrowingKnife;
+            Projectile.width = 15;
+            Projectile.height = 15;
+            Projectile.friendly = true;
+            Projectile.maxPenetrate = 1;
+            Projectile.DamageType = ModContent.GetInstance<NinjaToolDamageClass>();
+            Projectile.timeLeft = 200;
+            // Set other item.X values here
+
+        }
+
+        public override void AI()
+        {
+            Projectile.rotation = Projectile.velocity.ToRotation();
+        }
+
+
+        public override void Kill(int timeLeft)
+        {
+            Collision.HitTiles(Projectile.position + Projectile.velocity, Projectile.velocity, Projectile.width, Projectile.height); // dust
+            SoundEngine.PlaySound(SoundID.NPCHit7, Projectile.position);
+        }
+
+    }
+}

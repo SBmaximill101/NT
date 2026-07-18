@@ -1,0 +1,58 @@
+using Terraria;
+using Terraria.ID;
+using Terraria.ModLoader;
+
+namespace NT.Items
+{
+    [AutoloadEquip(EquipType.Face)]
+    public class EmptyHeadBand : ModItem
+    {
+        public override void SetStaticDefaults()
+        {
+            DisplayName.SetDefault("Empty Head Band");
+            Tooltip.SetDefault("A shinobi head band with no nation assosiated with it." + "Its simply for show right now but may be of some use later.");
+        }
+
+        public override void SetDefaults()
+        {
+            Item.width = 10;
+            Item.height = 10;
+            Item.maxStack = 1;
+            Item.value = 700;
+            Item.defense = 0;
+            Item.accessory = true;
+            Item.vanity = true;
+            // Set other item.X values here
+        }
+
+
+
+        public override void AddRecipes()
+        {
+            Recipe recipe = new Recipe(Mod);
+            recipe.AddIngredient(ItemID.Silk, 2);
+            recipe.AddIngredient(ItemID.IronBar);
+            recipe.AddTile(TileID.Anvils);
+            recipe.SetResult(this, 1);
+            recipe.Register();
+
+            recipe = new Recipe(Mod);
+            recipe.AddIngredient(ItemID.Silk, 2);
+            recipe.AddIngredient(ItemID.LeadBar);
+            recipe.AddTile(TileID.Anvils);
+            recipe.SetResult(this, 1);
+            recipe.Register();
+            // Recipes here. See Basic Recipe Guide
+        }
+
+        public override void DrawHair(ref bool drawHair, ref bool drawAltHair)/* tModPorter Note: Removed. In SetStaticDefaults, use ArmorIDs.Head.Sets.DrawFullHair[Item.headSlot] = true if you had drawHair set to true, and ArmorIDs.Head.Sets.DrawHatHair[Item.headSlot] = true if you had drawAltHair set to true */
+        {
+            drawHair = true;
+        }
+
+        public override void UpdateAccessory(Player player, bool hideVisual)
+        {
+           
+        }
+    }
+}

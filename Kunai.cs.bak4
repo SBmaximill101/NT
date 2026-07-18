@@ -1,0 +1,90 @@
+using Terraria;
+using Terraria.ID;
+using Terraria.ModLoader;
+
+namespace NT.Items
+{
+    public class Kunai : ModItem
+    {
+        public override void SetStaticDefaults()
+        {
+            DisplayName.SetDefault("Kunai");
+            Tooltip.SetDefault("A dagger like tool used by shinobi, tho inefficient you can stab with this weapon tho most chose to throw it");
+        }
+
+        public override void SetDefaults()
+        {
+            Item.consumable = false;
+            Item.damage = 5;
+            Item.DamageType = DamageClass.Melee/* tModPorter Suggestion: Consider MeleeNoSpeed for no attack speed scaling */;
+            Item.width = 20;
+            Item.height = 20;
+            Item.useTime = 25;
+            Item.useAnimation = 10;
+            Item.knockBack = 2;
+            Item.value = Item.buyPrice(silver: 4); // The value of the weapon in coins
+            Item.rare = 1;
+            Item.UseSound = SoundID.Item1;
+            Item.autoReuse = false;
+            Item.crit = 4;
+            Item.maxStack = 50;
+            Item.useStyle = 1;
+            // Set other item.X values here
+        }
+
+
+        public override void AddRecipes()
+        {
+            Recipe recipe = new Recipe(Mod);
+            recipe.AddIngredient(ItemID.IronBar);
+            recipe.AddIngredient(ItemID.Silk);
+            recipe.AddTile(TileID.Anvils);
+            recipe.SetResult(this, 5);
+            recipe.Register();
+
+            recipe = new Recipe(Mod);
+            recipe.AddIngredient(ItemID.LeadBar);
+            recipe.AddIngredient(ItemID.Silk);
+            recipe.AddTile(TileID.Anvils);
+            recipe.SetResult(this, 5);
+            recipe.Register();
+            // Recipes here. See Basic Recipe Guide
+        }
+
+        public override bool AltFunctionUse(Player player)
+        {
+            return true;
+        }
+
+        public override bool CanUseItem(Player player)
+        {
+            if (player.altFunctionUse == 2)
+            {
+                Item.noMelee = true;
+                Item.consumable = true;
+                Item.useStyle = ItemUseStyleID.Swing;
+                Item.DamageType = DamageClass.Throwing;
+                Item.melee = false/* tModPorter Suggestion: Remove. See Item.DamageType */;
+                Item.useTime = 35;
+                Item.useAnimation = 30;
+                Item.damage = 12;
+                Item.shootSpeed = 10;
+                Item.shoot = ModContent.ProjectileType<Projectiles.KunaiProjectile>();
+            }
+            else
+            {
+                Item.noMelee = false;
+                Item.consumable = false;
+                Item.useStyle = ItemUseStyleID.Swing;
+                Item.thrown = false/* tModPorter Suggestion: Remove. See Item.DamageType */;
+                Item.DamageType = DamageClass.Melee/* tModPorter Suggestion: Consider MeleeNoSpeed for no attack speed scaling */;
+                Item.useTime = 10;
+                Item.useAnimation = 10;
+                Item.damage = 6;
+                Item.shoot = ProjectileID.None;
+            }
+            return base.CanUseItem(player);
+        }
+
+    }
+}

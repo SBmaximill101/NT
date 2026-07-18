@@ -1,0 +1,40 @@
+using Terraria;
+using Terraria.ID;
+using Terraria.ModLoader;
+
+namespace NT.Items
+{
+    public class Ramen : ModItem
+    {
+        
+        public override void SetDefaults()
+        {
+            Item.width = 5;
+            Item.height = 5;
+            Item.maxStack = 1;
+            Item.value = 900;
+            Item.consumable = true;
+            Item.useStyle = ItemUseStyleID.EatFood;
+            Item.useAnimation = 35;
+            Item.useTime = 50;
+            Item.UseSound = SoundID.Item3;
+            Item.maxStack = 100;
+            Item.buffTime = 5400;
+            Item.buffType = BuffID.WellFed;
+            Item.autoReuse = false;
+            // Set other item.X values here
+        }
+
+
+
+        public override void AddRecipes()
+        {
+            Recipe recipe = CreateRecipe(1);
+            recipe.AddIngredient(ItemID.Duck);
+            recipe.AddIngredient(ItemID.BowlofSoup);
+            recipe.AddTile(TileID.CookingPots);
+            recipe.Register();
+            // Recipes here. See Basic Recipe Guide
+        }
+    }
+}

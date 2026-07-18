@@ -1,0 +1,88 @@
+using NT.ClassContent;
+using System.Collections.Generic;
+using Terraria;
+using Terraria.ID;
+using Terraria.ModLoader;
+
+namespace NT.Items.NinjaTools.Base
+{
+    public class Kunai : ModItem
+    {
+       
+
+        public override void SetDefaults()
+        {
+            Item.consumable = false;
+            Item.damage = 5;
+            Item.DamageType = ModContent.GetInstance<NinjaToolDamageClass>();
+            Item.width = 20;
+            Item.height = 20;
+            Item.useTime = 25;
+            Item.useAnimation = 10;
+            Item.knockBack = 2;
+            Item.value = Item.buyPrice(silver: 4); // The value of the weapon in coins
+            Item.rare = ItemRarityID.White;
+            Item.UseSound = SoundID.Item1;
+            Item.autoReuse = false;
+            Item.crit = 4;
+            Item.maxStack = 50;
+            Item.useStyle = ItemUseStyleID.Swing;
+            // Set other item.X values here
+        }
+        /*
+        public override void ModifyTooltips(List<TooltipLine> tooltips)
+        {
+            var linetocahnge = tooltips.First
+        }
+        */
+        public override void AddRecipes()
+        {
+            Recipe recipe = CreateRecipe(5);
+            recipe.AddIngredient(ItemID.IronBar);
+            recipe.AddIngredient(ItemID.Silk);
+            recipe.AddTile(TileID.Anvils);
+            recipe.Register();
+
+            recipe = CreateRecipe(5);
+            recipe.AddIngredient(ItemID.LeadBar);
+            recipe.AddIngredient(ItemID.Silk);
+            recipe.AddTile(TileID.Anvils);
+            recipe.Register();
+            // Recipes here. See Basic Recipe Guide
+        }
+
+        public override bool AltFunctionUse(Player player)
+        {
+            return true;
+        }
+
+        public override bool CanUseItem(Player player)
+        {
+            if (player.altFunctionUse == 2)
+            {
+                Item.noMelee = true;
+                Item.consumable = true;
+                Item.useStyle = ItemUseStyleID.Swing;
+                Item.DamageType = ModContent.GetInstance<NinjaToolDamageClass>();
+                Item.useTime = 35;
+                Item.useAnimation = 30;
+                Item.damage = 12;
+                Item.shootSpeed = 10;
+                Item.shoot = ModContent.ProjectileType<Projectiles.KunaiProjectile>();
+            }
+            else
+            {
+                Item.noMelee = false;
+                Item.consumable = false;
+                Item.useStyle = ItemUseStyleID.Swing;
+                Item.DamageType = ModContent.GetInstance<NinjaToolDamageClass>();
+                Item.useTime = 10;
+                Item.useAnimation = 10;
+                Item.damage = 6;
+                Item.shoot = ProjectileID.None;
+            }
+            return base.CanUseItem(player);
+        }
+
+    }
+}

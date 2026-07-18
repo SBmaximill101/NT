@@ -1,0 +1,67 @@
+﻿using Terraria;
+using Terraria.ID;
+using Terraria.ModLoader;
+using NT;
+using Terraria.GameContent.ItemDropRules;
+using IL.Terraria.Localization;
+using NT.ClassContent;
+
+namespace NT.Items.NinjaArmor.Base.Aspiring
+{
+    [AutoloadEquip(EquipType.Head)]
+		public class AspiringGoggles : ModItem
+		{
+
+			public bool SetBonus;
+
+			public override void SetStaticDefaults()
+			{
+				// If your head equipment should draw hair while drawn, use one of the following:
+				// ArmorIDs.Head.Sets.DrawHead[Item.headSlot] = false; // Don't draw the head at all. Used by Space Creature Mask
+				// ArmorIDs.Head.Sets.DrawHatHair[Item.headSlot] = true; // Draw hair as if a hat was covering the top. Used by Wizards Hat
+				ArmorIDs.Head.Sets.DrawFullHair[Item.headSlot] = true; 
+				// Draw all hair as normal. Used by Mime Mask, Sunglasses
+				//ArmorIDs.Head.Sets.DrawsBackHairWithoutHeadgear[Item.headSlot] = true; 
+	
+	
+				// DisplayName.SetDefault("Aspiring Ninja Goggles");
+				// Tooltip.SetDefault("Goggles that you made yourself! They make you feel more like a real Ninja.");
+		
+			}
+
+
+			public override void SetDefaults()
+			{
+				Item.width = 36; // Width of the item
+				Item.height = 36; // Height of the item
+				Item.value = Item.sellPrice(silver: 2); // How many coins the item is worth
+				Item.rare = ItemRarityID.White; // The rarity of the item
+				Item.defense = 2; // The amount of defense the item will give when equipped
+			}
+
+			
+			//IsArmorSet determines what armor pieces are needed for the setbonus to take effect
+			public override bool IsArmorSet(Item head, Item body, Item legs)
+			{
+				return body.type == ModContent.ItemType<AspiringShirt>() && legs.type == ModContent.ItemType<AspiringSandels>();
+			}
+			
+
+			// UpdateArmorSet allows you to give set bonuses to the armor.
+			public override void UpdateArmorSet(Player player)
+			{
+				player.setBonus = "Inceased Ninja Tool damage";
+				player.GetDamage(ModContent.GetInstance<NinjaToolDamageClass>()) += .5f;
+			}
+
+			// Please see Content/ExampleRecipes.cs for a detailed explanation of recipe creation.
+			public override void AddRecipes()
+			{
+				Recipe recipe = CreateRecipe(1);
+				recipe.AddIngredient(ItemID.Goggles);
+				recipe.AddIngredient(ItemID.Silk);
+				recipe.Register();
+			}
+		}
+
+}

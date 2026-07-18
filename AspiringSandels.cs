@@ -1,0 +1,51 @@
+﻿using Terraria;
+using Terraria.ID;
+using Terraria.Localization;
+using Terraria.ModLoader;
+
+namespace NT.Items.NinjaArmor.Base.Aspiring
+{
+		[AutoloadEquip(EquipType.Legs)]
+		public class AspiringSandels : ModItem
+		{
+
+
+
+			public override void SetDefaults()
+			{
+				Item.width = 36; // Width of the item
+				Item.height = 36; // Height of the item
+				Item.value = Item.sellPrice(silver: 5); // How many coins the item is worth
+				Item.rare = ItemRarityID.Blue; // The rarity of the item
+				Item.defense = 1; // The amount of defense the item will give when equipped
+			}
+
+
+			
+
+			/* 
+			//IsArmorSet determines what armor pieces are needed for the setbonus to take effect
+			public override bool IsArmorSet(Item head, Item body, Item legs)
+			{
+				return body.type == ModContent.ItemType<AspiringShirt>() && legs.type == ModContent.ItemType<AspiringSandels>();
+			}
+			*/
+
+			// UpdateArmorSet allows you to give set bonuses to the armor.
+			public override void UpdateArmorSet(Player player)
+			{
+
+			}
+
+			// Please see Content/ExampleRecipes.cs for a detailed explanation of recipe creation.
+			public override void AddRecipes()
+			{
+				Recipe recipe = CreateRecipe(1);
+				recipe.AddIngredient(ItemID.ShoeSpikes);
+				recipe.AddIngredient(ItemID.SilkRope);
+				recipe.AddIngredient(ItemID.SandBlock);
+				recipe.Register();
+			}
+		}
+
+}

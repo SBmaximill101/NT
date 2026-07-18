@@ -1,0 +1,33 @@
+﻿using Terraria;
+using Terraria.ID;
+using Terraria.ModLoader;
+
+
+namespace NT.Items.Jutsu
+{
+    internal class InscriptionTable : ModItem
+    {
+	
+		public override void SetDefaults()
+		{
+			
+			Item.DefaultToPlaceableTile(ModContent.TileType<Jutsu.InscriptionTableTile>());
+			Item.maxStack = 1;
+			// Item.placeStyle = 1; // Use this to place the chest in its locked style
+			Item.width = 54;
+			Item.height = 34;
+			Item.value = 0;
+		}
+
+		// Please see Content/ExampleRecipes.cs for a detailed explanation of recipe creation.
+		public override void AddRecipes()
+		{
+			Recipe recipe = CreateRecipe(1);
+			recipe.AddIngredient(ItemID.Wood, 10);
+			recipe.AddIngredient(ItemID.Book);
+			recipe.AddTile(TileID.Sawmill);
+			recipe.Register();
+		}
+
+	}
+}

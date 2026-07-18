@@ -1,0 +1,46 @@
+using Terraria;
+using Terraria.ID;
+using Terraria.ModLoader;
+
+namespace NT.Items
+{
+    public class Ramen : ModItem
+    {
+        public override void SetStaticDefaults()
+        {
+            DisplayName.SetDefault("Ramen");
+            Tooltip.SetDefault("a bowl of miso based extra Chasu ramen");
+        }
+
+        public override void SetDefaults()
+        {
+            item.width = 5;
+            item.height = 5;
+            item.maxStack = 1;
+            item.value = 900;
+            item.consumable = true;
+            item.useStyle = ItemUseStyleID.EatingUsing;
+            item.useAnimation = 35;
+            item.useTime = 50;
+            item.UseSound = SoundID.Item3;
+            item.maxStack = 100;
+            item.buffTime = 5400;
+            item.buffType = BuffID.WellFed;
+            item.autoReuse = false;
+            // Set other item.X values here
+        }
+
+
+
+        public override void AddRecipes()
+        {
+            ModRecipe recipe = new ModRecipe(mod);
+            recipe.AddIngredient(ItemID.Duck);
+            recipe.AddIngredient(ItemID.BowlofSoup);
+            recipe.AddTile(TileID.CookingPots);
+            recipe.SetResult(this, 1);
+            recipe.AddRecipe();
+            // Recipes here. See Basic Recipe Guide
+        }
+    }
+}
